@@ -1,8 +1,6 @@
 <template>
   <header>
-  	<i class="iconfont icon-liwu"></i>
-       	投融家
-    <i class="iconfont icon-lingdang-xianxing"></i>
+        投资
   </header>
 </template>
 <script src="./script.js"></script>

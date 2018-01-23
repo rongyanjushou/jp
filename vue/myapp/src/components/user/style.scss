@@ -1,17 +1,5 @@
 @import  "~@/lib/reset.scss";
 header{
-    .iconfont{      
-        @include rect(0.35rem,0.35rem);
-        line-height:0.35rem;
-        text-align:center;
-        margin:0 0.1rem 0 0.1rem;
-        @include text-color(#fff);
-        @include background-color(#000);
-        @include border-radius(50%);
-        opacity:0.5;
-    }
-}
-header{
         height:0.5rem;
         @include flexbox();
         @include align-items(center);

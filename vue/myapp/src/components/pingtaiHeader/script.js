@@ -9,7 +9,9 @@ export default {
 	
 	},
 	methods:{
-		
+		ret(){
+			history.go(-1)
+		}
 	},
 	computed:{
 		
