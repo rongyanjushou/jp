@@ -1,0 +1,82 @@
+{
+"1":[
+{
+"id": "1001",
+"name": "邀请好友",
+"img": "https://www.tourongjia.com/public/images/mobile/investm/indexico01.png"
+},
+{
+"id": "1007",
+"name": "积分商城",
+"img": "https://www.tourongjia.com/public/images/mobile/investm/indexico02.png"
+},
+{
+"id": "1008",
+"name": "安全保障",
+"img": "https://www.tourongjia.com/public/images/mobile/investm/indexico03.png"
+},
+{
+"id": "1009",
+"name": "投乐吧",
+"img": "https://www.tourongjia.com/public/images/mobile/investm/indexico04.png"
+}
+],
+"2":[
+{
+"id": "1001",
+"img": "http://img.tourongjia.com/data/uploads/img/2018/01/16/5a5df25b0f537.png"
+},
+{
+"id": "1002",
+"img": "http://img.tourongjia.com/data/uploads/img/2018/01/05/5a4f1b8f7e38f.png"
+},
+{
+"id": "1003",
+"img": "http://img.tourongjia.com/data/uploads/img/2018/01/05/5a4f4e66c9b78.jpg"
+},
+{
+"id": "1004",
+"img": "http://img.tourongjia.com/data/uploads/img/2018/01/04/5a4dfc0e70516.jpg"
+}
+],
+"3":[
+{
+"id": "1001",
+"title":"2.50%",
+"time":"6",
+"shou":"77%"
+}
+],
+"4":[
+{
+"id": "1001",
+"title":"1.50%",
+"time":"6",
+"shengyu":"5.472"
+},
+{
+"id": "1002",
+"title":"1.00%",
+"time":"8",
+"shengyu":"11.906"
+}
+],
+"5":[
+{
+"id": "1001",
+"number":"79.00"
+},
+{
+"id": "1002",
+"number":"2.17"
+},
+{
+"id": "1003",
+"number":"15.99"
+},
+{
+"id": "1004",
+"number":"746"
+}
+]
+}
