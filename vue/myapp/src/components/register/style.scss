@@ -1,0 +1,42 @@
+@import  "~@/lib/reset.scss";
+
+.content{
+    background: #fff;
+    i{
+        color: orange;
+        font-size: .4rem;
+        margin-left: .1rem;
+        margin-top: .1rem;
+        float: left;
+    }
+    img{
+        width: 1.56rem;
+        height: 0.52rem;
+        float: left;
+        margin-left: .5rem;
+        margin-top: 1.2rem;
+    }
+    p{
+        float: left;
+        font-size: .14rem;
+        margin-top: .2rem;
+        margin-left: 1.17rem;
+    }
+    #iphone{
+        width: 3.53rem;
+        height: 0.48rem;
+        border: 0;
+        margin-left: .1rem;
+        margin-top: .3rem;
+        border-bottom:1px solid orange ;
+    }
+    button{
+        width: 3.51rem;
+        height: 0.45rem;
+        background: #f5f5f5;
+        border: 0;
+        border-radius: 20px;
+        margin-left: .1rem;
+        margin-top: .2rem;
+    }
+}

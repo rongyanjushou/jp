@@ -1,6 +1,6 @@
 <template>
   <header>
-        投资
+        <h1>投资</h1>
   </header>
 </template>
 <script src="./script.js"></script>

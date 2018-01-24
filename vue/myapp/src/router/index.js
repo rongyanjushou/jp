@@ -11,7 +11,7 @@ import FindContent from '@/components/findContent'
 import UserContent from '@/components/userContent'
 import Pingtai from '@/components/pingtai'
 import PingtaiHeader from '@/components/pingtaiHeader'
-
+import Register from '@/components/register'
 Vue.use(Router)
 
 export default new Router({
@@ -62,6 +62,13 @@ export default new Router({
    		header:User,
    		content:UserContent,
    		footer:Footer
+   	}
+   },
+   {
+   	path:'/register',
+   	name:'register',
+   	components:{
+   		content:Register
    	}
    }
   ]

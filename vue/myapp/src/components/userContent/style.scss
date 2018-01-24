@@ -1,3 +1,393 @@
-@import  "~@/lib/reset.scss"
+@import  "~@/lib/reset.scss";
+.content{
+    @include flex();
+      @include rect(100%, auto);
+      overflow: auto;
+      .main{
+          background: #ef6822;
+          width: 100%;
+          height: 2.01rem;
+          position: relative;
+          i{
+              color: #fff;
+              float: right;
+              font-size: .22rem;
+              margin-right: .2rem;
+              margin-top: .1rem;
+          }
+          h1{
+              color: #fff;
+              font-size: .34rem;
+              font-family: arial;
+              float: left;
+              margin-top: .3rem;
+              margin-left: 1.3rem;
+          }
+          p{
+              width: 1.26rem;
+              height: 0.37rem;
+              border: 1px solid #f5f5f5;
+              position: absolute;
+              text-align: center;
+              line-height: 0.37rem;
+              border-radius: 20px;
+              color: #f5f5f5;
+              top: 1.2rem;
+              left: 1.15rem;
+          }
+      }
+      .bobo{
+          width: 100%;
+          height: 0.2rem;
+          img{
+              width: 100%;
+              height: 0.22rem;
+          }
+      }
+      .money{
+          width: 100%;
+          height: 0.61rem;
+          background: #fff;
+          line-height: 0.61rem;
+          .yue{
+              display: inline-block;
+              color: #999;
+              text-indent: .2rem;
+              float: left;
+          }
+          b{
+              font-weight: 900;
+              float: left;
+              margin-left: .1rem;
+          }
+          .tixian{  
+              display: inline-block;           
+              float: left;
+              width: 0.64rem;
+              height: 0.28rem;
+              border: 1px solid orange;
+              color: orange;
+              border-radius: 20px;
+              text-align: center;
+              line-height: 0.28rem;
+              margin-top: .12rem;
+              margin-left: 1rem;
+          }
+          .chongzhi{
+              display: inline-block;           
+              float: left;
+              width: 0.64rem;
+              height: 0.28rem;
+              border: 1px solid orange;
+              border-radius: 20px;
+              text-align: center;
+              line-height: 0.28rem;
+              margin-top: .12rem;
+              margin-left: .1rem;
+             color: #fff;
+             background: orange;
+          }
+      }
+      .jilu{
+          width: 100%;
+          height: 1.43rem;
+          background: #fff;
+          margin-top: .1rem;
+          .one{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+              margin-left: 0.15rem;     
+              border-right: 1px solid #cecece; 
+              border-bottom: 1px solid #cecece;               
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/accountInvest@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+      
+      
+      
+      .two{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+                
+              border-bottom: 1px solid #cecece;        
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/moneyRecord@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+          
+      
+      
+      
+      .three{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+              margin-left: 0.15rem;     
+              border-right: 1px solid #cecece; 
+                          
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/myReward@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+          .four{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+                
+               
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/accountScrow@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+      }
+      
+      
+      .jilu1{
+          width: 100%;
+          height: 1.43rem;
+          background: #fff;
+          margin-top: .1rem;
+          .one{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+              margin-left: 0.15rem;     
+              border-right: 1px solid #cecece; 
+              border-bottom: 1px solid #cecece;               
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/memberIndex@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+      
+      
+      
+      .two{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+                
+              border-bottom: 1px solid #cecece;        
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/integral@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+         
+      .three{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+              margin-left: 0.15rem;     
+              border-right: 1px solid #cecece; 
+                          
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/myTyj@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+          .four{
+              float: left;
+              width: 1.72rem;
+              height: 0.71rem;
+                
+               
+              p{
+                  display: inline-block;
+                  float: left;
+                   margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              em{
+                  width: 0.23rem;
+                  height: 0.23rem;
+                  float: left;
+                  background: url("https://www.tourongjia.com/public/images/mobile/account/inviteFriend@2x.png") no-repeat center/cover;
+                  margin-top: .2rem;
+                  margin-left: .1rem;
+              }
+              span{
+                  display: block;
+                  float: left;
+                   margin-top: .1rem;
+                   font-size: .12rem;
+                   color: #999;
+                    margin-left: .1rem;
+              }
+          }
+      }
+      .safe{
+          width: 100%;
+          height: 1.12rem;
+          margin-top: .2rem;
+         .safe1{
+             width: 100%;
+             height: 0.36rem;
+             line-height: 0.36rem;
+             i{
+                 color: orange;
+             }
+             p:first-child{
+                 float: left;
+                 margin-left: .9rem;
+                 font-size: .12rem;
+             }
+             p:last-child{
+                 float: left;
+                 margin-left: .4rem;
+                 font-size: .12rem;
+             }
+         }
+         p{
+          float: left;
+          font-size: .12rem;   
+          margin-left: .6rem;
+         }
+         span{
+             color: orange;
+             font-size: .12rem;
+             float: left;
+             font-weight: 900;
+             margin-left: 1.4rem;
+         }
+      }
+      
+      .cheng{
+          height: .4rem;
+      }
+}
 
 

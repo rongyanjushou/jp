@@ -3,6 +3,7 @@
 .content{
       @include flex();
       @include rect(100%, auto);
+      overflow: auto;
       #banner{
         .mint-swipe {
             @include rect(100%, 2rem);
@@ -77,55 +78,288 @@
                border-bottom:1px solid #cecece ;
                margin-left: 0.18rem;
            }
-        .shuju1 em{
+        .shuju1-top em{
             width: 0.42rem;
             height: 0.16rem;
             position: absolute;
             top: .17rem;
             background: url('https://m.tourongjia.com/images/project_new_people@3x.png') no-repeat center/cover;
         }
-        .shuju1 p{
+        .shuju1-top p{
             text-indent: .5rem;
             font-size: .12rem;
         } 
         .shuju1-bottom{
+            height: 1.09rem;    
             .price{
-                 text-indent: .2rem;
+                text-indent: .2rem;
                 display: inline-block;
                 font-size: .3rem;
                 color: orange;
                 float: left;
+                margin-top: .18rem;
             }
             span{
                 font-size: .2rem;
                 color: orange;
                 float: left;
-                margin-top: .09rem;
+                margin-top: .27rem;
             }
             i{
                 font-size: .1rem;
                 position: absolute;
                 left:.3rem;
-                top: .9rem;
+                top: 1.1rem;
             }
             .time{
                 font-size: .2rem;
                 float: left;
-                margin-top: .09rem;
+                margin-top: .28rem;
+                text-indent:.1rem ;
             }
             b{
                 font-size: .1rem;
                 position: absolute;
-                left: 2.1rem;
-                top: .9rem;
+                left: 1.6rem;
+                top: 1.1rem;
             }
             strong{
                 position: absolute;
-                left: 3rem;
-                top: .65rem;
+                left: 2.7rem;
+                top: .83rem;
             }
-        }  
-    
+           .tu{
+               width: 1rem;
+               height: 0.02rem;
+               background: #cecece;
+               float: left;
+               margin-top: .68rem;
+               margin-left: .3rem;
+           }
+           .tu em{
+               width: 77%;
+               height: 0.02rem;
+               float: left;
+               background: #669DF9;
+               border-radius: 10px
+           }
+        }
+        
+        h3{
+            width: 1.1rem;
+            height: .13rem;
+            line-height: .14rem;
+            margin-top: .1rem;
+            margin-left: .1rem;  
+            text-indent: .1rem;          
+            border-left: .03rem solid #000;
+            border-radius: 3px;
+        }
+        .shuju2{
+           background: #fff;
+           width: 100%;
+           height: 1.6rem;
+           margin-top:.08rem ;
+          position: relative;
+      }
+       .shuju2-top{
+               height: 0.51rem;
+               line-height: 0.51rem;
+               width: 3.37rem;
+               border-bottom:1px solid #cecece ;
+               margin-left: 0.18rem;
+           }
+        .shuju2-top em{
+            width: 0.42rem;
+            height: 0.16rem;
+            position: absolute;
+            top: .17rem;
+            background: url('https://m.tourongjia.com/images/project_new_people@3x.png') no-repeat center/cover;
+        }
+        .shuju2-top p{
+            text-indent: .5rem;
+            font-size: .12rem;
+        } 
+        .shuju2-bottom{
+            height: 1.09rem;    
+            .price{
+                text-indent: .2rem;
+                display: inline-block;
+                font-size: .3rem;
+                color: orange;
+                float: left;
+                margin-top: .18rem;
+            }
+            span{
+                font-size: .2rem;
+                color: orange;
+                float: left;
+                margin-top: .27rem;
+            }
+            i{
+                font-size: .1rem;
+                position: absolute;
+                left:.3rem;
+                top: 1.1rem;
+            }
+            .time{
+                font-size: .2rem;
+                float: left;
+                margin-top: .28rem;
+                text-indent:.1rem ;
+            }
+            b{
+                font-size: .1rem;
+                position: absolute;
+                left: 1.6rem;
+                top: 1.1rem;
+            }
+            strong{
+                position: absolute;
+                left: 2.7rem;
+                top: .83rem;
+            }
+           .tu{
+               width: 1rem;
+               height: 0.02rem;
+               background: #cecece;
+               float: left;
+               margin-top: .68rem;
+               margin-left: .3rem;
+           }
+           .tu em{
+               width: 30%;
+               height: 0.02rem;
+               float: left;
+               background: #669DF9;
+               border-radius: 10px
+           }
+        } 
+        .shuju3{
+            width: 100%;
+            height: 1.73rem;
+            background: #fff;
+            margin-top: .1rem;
+        }
+        .shuju3 .one{
+            width: 1.7rem;
+            height: 0.65rem;
+            border: 1px solid #cecece;
+            float: left;
+            margin-top: 0.09rem;
+            margin-left: .16rem;
+            border-top: 0;
+            border-left: 0;
+            position: relative;
+        }
+        .shuju3 .one p{
+            font-size: .24rem;
+            color: orange;
+            text-indent: .2rem;
+           
+        }
+        .shuju3 .one span{
+            font-size: .12rem;
+            display: block;
+            text-indent:.1rem;
+            color: #666;
+        }
+        .shuju3 .one img{
+            width: 0.36rem;
+            height: 0.33rem;
+            position: absolute;
+            left: 1.2rem;
+            top: .1rem;
+        } 
+        
+        
+        .shuju3 .two{
+            width: 1.7rem;
+            height: 0.65rem;
+            border-bottom: 1px solid #cecece;
+            float: left;
+            margin-top: 0.09rem;
+           
+            position: relative;
+        }
+        .shuju3 .two p{
+            font-size: .24rem;
+            color: orange;
+            text-indent: .2rem;
+           
+        }
+        .shuju3 .two span{
+            font-size: .12rem;
+            display: block;
+            text-indent:.1rem;
+            color: #666;
+        }
+        .shuju3 .two img{
+            width: 0.36rem;
+            height: 0.33rem;
+            position: absolute;
+            left: 1.2rem;
+            top: .1rem;
+        }
+        
+        .shuju3 .three{
+            width: 1.7rem;
+            height: 0.65rem;
+            border-right: 1px solid #cecece;
+             float: left;
+            margin-left: .16rem;          
+            position: relative;
+        }
+        .shuju3 .three p{
+            font-size: .24rem;
+            color: orange;
+            text-indent: .2rem;
+           
+        }
+        .shuju3 .three span{
+            font-size: .12rem;
+            display: block;
+            text-indent:.1rem;
+            color: #666;
+        }
+        .shuju3 .three img{
+            width: 0.36rem;
+            height: 0.33rem;
+            position: absolute;
+            left: 1.2rem;
+            top: .1rem;
+        }
+        
+        .shuju3 .four{
+            width: 1.7rem;
+            height: 0.65rem;          
+            float: left;           
+            position: relative;
+        }
+        .shuju3 .four p{
+            font-size: .24rem;
+            color: orange;
+            text-indent: .2rem;
+           
+        }
+        .shuju3 .four span{
+            font-size: .12rem;
+            display: block;
+            text-indent:.1rem;
+            color: #666;
+        }
+        .shuju3 .four img{
+            width: 0.36rem;
+            height: 0.33rem;
+            position: absolute;
+            left: 1.2rem;
+            top: .1rem;
+        }
+        
+        
+    .cheng{
+        height: 1rem;
+    }
     }
 
 

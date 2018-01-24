@@ -37,7 +37,8 @@ html,body,#app{
          
     }	 
     .content{
-    	@include overflow(auto);
+    	flex:1;
+    	overflow:auto;
     }
 }
     

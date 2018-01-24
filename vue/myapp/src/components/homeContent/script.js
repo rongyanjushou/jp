@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-import { BASE_URL,BANNER_URL } from '@/common/base.js'
+import { BASE_URL } from '@/common/base.js'
 
 
 export default {
@@ -8,15 +8,16 @@ export default {
 		return{
 			data:[],
 			data1:[],
-			data2:[]
+			data2:[],
+			data3:[],
+			data4:[]
 		}
 	},
 	mounted(){
 		var that = this;
 		axios.get(BASE_URL)
 			.then(function(data){
-				var data = data.data[0];
-				
+				var data = data.data[0];				
 				that.data=data;
 				
 			});
@@ -29,8 +30,18 @@ export default {
 		.then(function(data){
 			var data2 = data.data[2];
 			that.data2 = data2;
-			console.log(data2)
 		});
+		axios.get(BASE_URL)	
+			.then(function(data){
+				var data3 = data.data[3];				
+				that.data3 = data3;				
+			});
+		axios.get(BASE_URL)
+			.then(function(data){
+				var data4 = data.data[4];
+				console.log(data4)
+				that.data4 = data4;
+			})
 			
 	},
 	methods:{

@@ -1,6 +1,6 @@
 <template>
   <header>
-       账户
+       <h1>账户</h1>
   </header>
 </template>
 <script src="./script.js"></script>

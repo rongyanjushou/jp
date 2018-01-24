@@ -1,6 +1,6 @@
 <template>
   <header>
-        发现
+        <h1>发现</h1>
   </header>
 </template>
 <script src="./script.js"></script>
