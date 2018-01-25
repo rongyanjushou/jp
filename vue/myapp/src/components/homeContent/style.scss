@@ -22,7 +22,7 @@
         background: #fff;
         ul{
              @include flexbox();
-             @include justify-content(space-between);
+             @include justify-content(space-around);
              
             li{
                 float:left;

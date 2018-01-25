@@ -29,14 +29,15 @@
         margin-left: .1rem;
         margin-top: .3rem;
         border-bottom:1px solid orange ;
+        color: #666;
     }
-    button{
-        width: 3.51rem;
-        height: 0.45rem;
-        background: #f5f5f5;
-        border: 0;
-        border-radius: 20px;
-        margin-left: .1rem;
+    #captcha{
+        color: #666;
         margin-top: .2rem;
+        text-indent: .1rem;
+    }
+    #large{
+        margin-top: .2rem;
+        border-radius: 20px;
     }
 }

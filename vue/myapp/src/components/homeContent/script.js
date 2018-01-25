@@ -1,7 +1,9 @@
 import axios from 'axios'
-
+import Vue from 'vue'
+import { Swipe, SwipeItem } from 'mint-ui';
 import { BASE_URL } from '@/common/base.js'
-
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 
 export default {
 	data(){
@@ -17,7 +19,8 @@ export default {
 		var that = this;
 		axios.get(BASE_URL)
 			.then(function(data){
-				var data = data.data[0];				
+				var data = data.data[0];
+				console.log(data)
 				that.data=data;
 				
 			});
@@ -39,7 +42,7 @@ export default {
 		axios.get(BASE_URL)
 			.then(function(data){
 				var data4 = data.data[4];
-				console.log(data4)
+				
 				that.data4 = data4;
 			})
 			

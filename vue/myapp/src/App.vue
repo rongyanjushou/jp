@@ -28,7 +28,7 @@ html,body,#app{
 	@include flexbox();
 	@include flex-direction(column);
 	@include align-content(space-around);
-	@include background-color(#eee);
+	@include background-color(#f5f5f5);
 	
 	header{
         height:0.5rem;

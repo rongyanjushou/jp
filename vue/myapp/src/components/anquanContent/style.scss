@@ -1,0 +1,167 @@
+@import  "~@/lib/reset.scss";
+.content{
+    background: #fff;
+    @include flex();
+    @include rect(100%, auto);
+    overflow: auto;
+    div:first-child{
+        width: 100%;
+        height: 2.13rem;
+        em{
+            width: .4rem;
+            height: .4rem;
+            background: url("https://m.tourongjia.com/images/found/us08.png") no-repeat center/cover;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .3rem;
+        }
+        h3{
+            color: #ff810c;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .2rem;
+        }
+        p{
+            float: left;
+            width: 2.63rem;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            line-height: .23rem;
+            font-weight: 900;
+        }
+    }
+    div:nth-of-type(2){
+        width: 100%;
+        height: 1.79rem;
+        background: #fcfcfc;
+        em{
+            width: .4rem;
+            height: .4rem;
+            background: url("https://m.tourongjia.com/images/found/us09.png") no-repeat center/cover;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .3rem;
+        }
+        h3{
+            color: #ff810c;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .2rem;
+        }
+        p{
+            float: left;
+            width: 2.63rem;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            line-height: .23rem;
+            font-weight: 900;
+        }
+    }
+    div:nth-of-type(3){
+        width: 100%;
+        height: 1.31rem;
+        em{
+            width: .4rem;
+            height: .4rem;
+            background: url("https://m.tourongjia.com/images/found/us10.png") no-repeat center/cover;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .3rem;
+        }
+        h3{
+            color: #ff810c;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .2rem;
+        }
+        p{
+            float: left;
+            width: 2.63rem;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            line-height: .23rem;
+            font-weight: 900;
+        }
+    }
+    div:nth-of-type(4){
+        width: 100%;
+        height: 1.07rem;
+        background: #fcfcfc;
+        em{
+            width: .4rem;
+            height: .4rem;
+            background: url("https://m.tourongjia.com/images/found/us11.png") no-repeat center/cover;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .3rem;
+        }
+        h3{
+            color: #ff810c;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .2rem;
+        }
+        p{
+            float: left;
+            width: 2.63rem;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            line-height: .23rem;
+            font-weight: 900;
+        }
+    }
+    div:nth-of-type(5){
+        width: 100%;
+        height: 1.31rem;
+        em{
+            width: .4rem;
+            height: .4rem;
+            background: url("https://m.tourongjia.com/images/found/us12.png") no-repeat center/cover;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .3rem;
+        }
+        h3{
+            color: #ff810c;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .2rem;
+        }
+        p{
+            float: left;
+            width: 2.63rem;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            line-height: .23rem;
+            font-weight: 900;
+        }
+    }
+     div:nth-of-type(6){
+        width: 100%;
+        height: 1.85rem;
+        background: #fcfcfc;
+        em{
+            width: .4rem;
+            height: .4rem;
+            background: url("https://m.tourongjia.com/images/found/us13.png") no-repeat center/cover;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .3rem;
+        }
+        h3{
+            color: #ff810c;
+            float: left;
+            margin-top: .4rem;
+            margin-left: .2rem;
+        }
+        p{
+            float: left;
+            width: 2.63rem;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            line-height: .23rem;
+            font-weight: 900;
+        }
+    }
+}
+

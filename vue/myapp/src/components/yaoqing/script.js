@@ -1,5 +1,4 @@
 
-
 export default {
 	data(){
 		return{
@@ -7,10 +6,12 @@ export default {
 		}
 	},
 	mounted(){
-		
+	
 	},
 	methods:{
-		
+		ret(){
+			history.go(-1)
+		}
 	},
 	computed:{
 		

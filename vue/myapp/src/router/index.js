@@ -12,6 +12,17 @@ import UserContent from '@/components/userContent'
 import Pingtai from '@/components/pingtai'
 import PingtaiHeader from '@/components/pingtaiHeader'
 import Register from '@/components/register'
+import Yaoqing from '@/components/yaoqing'
+import YaoqingContent from '@/components/yaoqingContent'
+import Store from '@/components/store'
+import StoreContent from '@/components/storeContent'
+import Anquan from '@/components/anquan'
+import AnquanContent from '@/components/anquanContent'
+import Toule from '@/components/toule'
+import TouleContent from '@/components/touleContent'
+import Jinghua from '@/components/jinghua'
+import Zuixin from '@/components/zuixin'
+import Huifu from '@/components/huifu'
 Vue.use(Router)
 
 export default new Router({
@@ -70,6 +81,59 @@ export default new Router({
    	components:{
    		content:Register
    	}
+   },
+   {
+   	path:'/yaoqing',
+   	name:'yaoqing',
+   	components:{
+   		header:Yaoqing,
+   		content:YaoqingContent
+   	}
+   },
+   {
+   	path:'/store',
+   	name:'store',
+   	components:{
+   		header:Store,
+   		content:StoreContent
+   	}
+   },
+   {
+   	path:'/anquan',
+   	name:'anquan',
+   	components:{
+   		header:Anquan,
+   		content:AnquanContent
+   	}
+   },
+   {
+   	path:'/toule',
+   	name:'toule',
+   	components:{
+   		header:Toule,
+   		content:TouleContent
+   	},
+   	children:[
+   	{
+   		path:'/',
+   		redirect:'/jinghua'
+   	},
+   		{
+   			path:"/jinghua",
+   			name:'jinghua',
+   			component:Jinghua
+   		},
+   		{
+   			path:"/zuixin",
+   			name:'zuixin',
+   			component:Zuixin
+   		},
+   		{
+   			path:'/huifu',
+   			name:'huifu',
+   			component:Huifu
+   		}
+   	]
    }
   ]
 })

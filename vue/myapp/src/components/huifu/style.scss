@@ -1,0 +1,41 @@
+@import  "~@/lib/reset.scss";
+.content{
+    overflow: auto;
+    .one{
+        width: 100%;
+        height: 0.77rem;
+        background: #fff;
+        margin-top: .1rem;
+        position: relative;
+        span{
+            color: #000;
+            float: left;
+            margin-left: .2rem;
+            margin-top: .1rem;
+            font-size: .14rem;
+        }
+        p{
+            color: #000;
+            float: left;
+            margin-top: .1rem;
+            margin-left: .2rem;
+            font-size: .14rem;
+        }
+        i{
+            float: left;
+            color: #666;
+            font-size: .12rem;
+            margin-top: .2rem;
+            margin-left: .2rem;
+        }
+        img{
+            width: .8rem;
+            height: .6rem;
+            position: absolute;
+            right: .3rem;
+            top: .1rem;
+        }
+    }
+}
+
+

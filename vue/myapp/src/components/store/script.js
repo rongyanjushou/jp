@@ -1,5 +1,4 @@
 
-
 export default {
 	data(){
 		return{
@@ -7,7 +6,7 @@ export default {
 		}
 	},
 	mounted(){
-		
+	
 	},
 	methods:{
 		

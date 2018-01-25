@@ -11,7 +11,7 @@
   	</div>
   	<div class="main">
   		<ul>
-  			<router-link to="" tag="li" v-for="(item,index) in data" :key="index"><img :src="item.img" alt="" /><p>{{item.name}}</p></router-link>
+  			<router-link :to="item.path" tag="li" v-for="(item,index) in data" :key="index"><img :src="item.img" alt="" /><p>{{item.name}}</p></router-link>
   		</ul>
   	</div>
   	<div class="qianbao">

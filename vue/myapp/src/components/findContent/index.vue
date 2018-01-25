@@ -1,30 +1,30 @@
 <template>
   <div class="content">
   	<div class="main">
-  		<div>
+  		<router-link to='' tag='div'>
   			<img src="https://m.tourongjia.com/images/new-found-index/1.png" alt="" />
   			<p>运营报告</p>
-  		</div>
-  		<div>
+  		</router-link>
+  		<router-link to='' tag='div'>
   			<img src="https://m.tourongjia.com/images/new-found-index/2.png" alt="" />
   			<p>项目安全解读</p>
-  		</div>
-  		<div>
+  		</router-link>
+  		<router-link to='/anquan' tag='div'>
   			<img src="https://m.tourongjia.com/images/new-found-index/3.png" alt="" />
   			<p>关于投融家</p>
-  		</div>
-  		<div>
+  		</router-link>
+  		<router-link to='' tag='div'>
   			<img src="https://m.tourongjia.com/images/new-found-index/4.png" alt="" />
   			<p>关注微信</p>
-  		</div>
-  		<div>
+  		</router-link>
+  	<router-link to='' tag='div'>
   			<img src="https://m.tourongjia.com/images/new-found-index/5.png" alt="" />
   			<p>帮助中心</p>
-  		</div>
-  		<div>
+  		</router-link>
+  		<router-link to='' tag='div'>
   			<img src="https://m.tourongjia.com/images/new-found-index/6.png" alt="" />
   			<p>联系我们</p>
-  		</div>
+  		</router-link>
   	</div>
   	<h3>积分兑换</h3>
   	<span class="more">更多>></span>
