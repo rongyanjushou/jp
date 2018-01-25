@@ -16,6 +16,10 @@ import Yaoqing from '@/components/yaoqing'
 import YaoqingContent from '@/components/yaoqingContent'
 import Store from '@/components/store'
 import StoreContent from '@/components/storeContent'
+import StoreFooter from '@/components/storeFooter'
+import Detail from '@/components/detail'
+import DetailContent from '@/components/detailContent'
+import DetailFooter from '@/components/detailFooter'
 import Anquan from '@/components/anquan'
 import AnquanContent from '@/components/anquanContent'
 import Toule from '@/components/toule'
@@ -23,6 +27,8 @@ import TouleContent from '@/components/touleContent'
 import Jinghua from '@/components/jinghua'
 import Zuixin from '@/components/zuixin'
 import Huifu from '@/components/huifu'
+
+
 Vue.use(Router)
 
 export default new Router({
@@ -134,7 +140,26 @@ export default new Router({
    			component:Huifu
    		}
    	]
+   },
+   {
+   	path:'/store',
+   	name:'store',
+   	components:{
+   		header:Store,
+   		content:StoreContent,
+   		footer:StoreFooter
+   	}
+   },
+   {
+   	path:'/detail/:id',
+   	name:'detail',
+   	components:{
+   		header:Detail,
+   		content:DetailContent,
+   		footer:DetailFooter
+   	}
    }
+
   ]
 })
 

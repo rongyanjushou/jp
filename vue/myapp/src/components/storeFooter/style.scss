@@ -1,0 +1,32 @@
+@import  "~@/lib/reset.scss";
+footer{
+      @include rect(100%, 0.5rem);
+      @include background-color(#fff);
+      @include text-color(#333);
+      @include border(1px 0 0 0,solid);
+      position: fixed;
+      bottom: 0;
+      ul{
+        @include rect(100%,100%);
+        @include flexbox();
+        
+        li{
+           @include flex();
+           @include flexbox();
+           @include flex-direction(column);
+           @include justify-content();
+           @include align-items();
+           @include text-color(#666);
+          .iconfont{
+            @include font-size(16px);               
+           }
+           
+        }
+        .router-link-active{
+            @include text-color(orange)
+        }
+      }
+    }
+
+
+

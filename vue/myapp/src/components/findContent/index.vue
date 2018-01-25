@@ -27,7 +27,8 @@
   		</router-link>
   	</div>
   	<h3>积分兑换</h3>
-  	<span class="more">更多>></span>
+  	<router-link to="/store" class="more" tag="span">更多>> </router-link>
+  	
   	<div class="jifen">
   		<div class="one">
   			<div>

@@ -1,10 +1,11 @@
 @import  "~@/lib/reset.scss";
 
 header{
+        position: relative;
         height:0.5rem;
         @include flexbox();
         @include align-items(center);
-        @include justify-content(space-between);
+        @include justify-content(center);
         @include rect(100%,0.5rem);
         @include background-color(#fff);
         @include text-color(#000);
@@ -14,7 +15,7 @@ header{
         line-height: 0.5rem;
 }
 h2{
-    text-indent: 35%;   
+       font-size: 0.20rem;
 }
 i{
     position: absolute;

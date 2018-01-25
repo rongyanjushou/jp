@@ -1,12 +1,8 @@
-
 import axios from 'axios'
 import { BASE_URL,BASE_URLL } from '@/common/base.js'
-
-
 export default {
 	data(){
 		return{
-			arr:[],
 			arr1:[]
 		}
 	},
@@ -15,14 +11,10 @@ export default {
 		axios({
 			url:BASE_URLL
 		}).then(function(data){
-			_this.arr=data.data[0]
+			_this.arr1=data.data[2]
+			console.log(_this.arr1);
+			console.log("1");
 		});
-		axios({
-			url:BASE_URLL
-		}).then(function(data){
-			_this.arr1=data.data[1]
-		});
-
 	},
 	methods:{
 		
